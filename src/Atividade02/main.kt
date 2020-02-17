@@ -5,9 +5,9 @@ import java.util.*
 
 fun main (args: Array<String>) {
     val vetor: Array<CiaAerea> = Array<CiaAerea>(5) {
-        randomCiaAerea()
-        randomCiaAerea()
-        randomCiaAerea()
+        Tam()
+        Gol()
+        AmericanAirlines()
         randomCiaAerea()
         randomCiaAerea()
     }
