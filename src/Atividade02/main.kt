@@ -4,13 +4,19 @@ import java.time.LocalDate
 import java.util.*
 
 fun main (args: Array<String>) {
-    val vetor: Array<CiaAerea> = Array<CiaAerea>(5) {
-        Tam()
-        Gol()
-        AmericanAirlines()
-        randomCiaAerea()
-        randomCiaAerea()
-    }
+//    val vetor: Array<CiaAerea> = Array<CiaAerea>(5) {
+//        Tam()
+//        Gol()
+//        AmericanAirlines()
+//        randomCiaAerea()
+//        randomCiaAerea()
+//    }
+    val vetor = listOf(
+        Tam(),
+        Gol(),
+        AmericanAirlines(),
+        randomCiaAerea(),
+        randomCiaAerea())
 
     for (item: CiaAerea in vetor) {
         item.emitirBilhete(LocalDate.now(), BigDecimal.valueOf(10))
@@ -35,12 +41,10 @@ fun randomCiaAerea(): CiaAerea {
 
     return Tam()
 }
-
+class Bilhete (val data: LocalDate)
 interface CiaAerea {
     fun emitirBilhete(data: LocalDate, valor: BigDecimal): Bilhete
 }
-
-class Bilhete (val data: LocalDate)
 
 class Tam : CiaAerea {
     override fun emitirBilhete(data: LocalDate, valor: BigDecimal): Bilhete {
