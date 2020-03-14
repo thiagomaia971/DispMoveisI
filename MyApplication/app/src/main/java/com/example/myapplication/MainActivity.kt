@@ -37,12 +37,4 @@ class MainActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
-
-    fun onRegistrarButton(view: View){
-        print("asd")
-//        val intent = Intent(this, RegisterActivity::class.java).apply {
-//            putExtra("EXTRA_MESSAGE", "message")
-//        }
-//        startActivity(intent)
-    }
 }

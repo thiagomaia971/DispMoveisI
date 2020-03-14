@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Log In</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -12,4 +12,6 @@
     <string name="email">Email</string>
     <string name="login_button">Log in</string>
     <string name="registrar_button">Registrar</string>
+    <string name="senha">Senha</string>
+    <string name="registar_page_name">Inscrever-se</string>
 </resources>
