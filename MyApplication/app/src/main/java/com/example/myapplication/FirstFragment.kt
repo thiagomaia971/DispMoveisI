@@ -12,6 +12,30 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 
+object ClientRep {
+    fun setClient(email: String, cliente: Cliente) {
+        clientes.set(email, cliente)
+    }
+    val clientes: HashMap<String, Cliente> = HashMap()
+}
+
+
+//class ClienteRepository {
+//    companion object {
+//        lateinit var clientes: HashMap<String, Cliente>
+//        fun setClient(email: String, cliente: Cliente) {
+//            if (clientes == null)
+//                clientes = HashMap()
+//            clientes.set(email, cliente)
+//        }
+//    }
+//
+//    init {
+//        print("init")
+//        clientes = HashMap()
+//    }
+//}
+
 class Cliente(nome: String, senha: String, email: String, disciplina: String, turma: String, tel: String) {
     var nome: String = nome
     var senha: String = senha
@@ -25,13 +49,6 @@ class Cliente(nome: String, senha: String, email: String, disciplina: String, tu
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
 class FirstFragment : Fragment() {
-    companion object {
-        lateinit var clientes: HashMap<String, Cliente>
-    }
-
-    init {
-        clientes = HashMap()
-    }
 
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
@@ -48,7 +65,7 @@ class FirstFragment : Fragment() {
             val email = view.findViewById<EditText>(R.id.emailTextView).text.toString()
             val senha = view.findViewById<EditText>(R.id.senhaTextView).text.toString()
 
-            if (clientes.containsKey(email) && clientes.get(email)?.senha == senha)
+            if (ClientRep.clientes.containsKey(email) && ClientRep.clientes.get(email)?.senha == senha)
                 findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
             Toast.makeText(activity, "Email ou senha inválidos!", Toast.LENGTH_SHORT).show()
         }

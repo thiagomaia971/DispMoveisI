@@ -49,8 +49,7 @@ class RegisterUser : AppCompatActivity() {
     }
 
     private fun goToMainActivity() {
-        val intent = Intent(this, MainActivity::class.java).apply {
-        }
+        val intent = Intent(this, MainActivity::class.java).apply {}
         startActivity(intent)
     }
 
@@ -101,7 +100,7 @@ class RegisterUser : AppCompatActivity() {
     }
 
     private fun registrar(cliente: Cliente) {
-        FirstFragment.clientes.set(cliente.email, cliente)
+        ClientRep.setClient(cliente.email, cliente)
     }
 
     private fun getClient(): Cliente {
