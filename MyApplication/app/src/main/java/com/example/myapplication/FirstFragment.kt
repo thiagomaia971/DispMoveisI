@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -11,8 +12,13 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 
-class Cliente {
-    var senha: String = ""
+class Cliente(nome: String, senha: String, email: String, disciplina: String, turma: String, tel: String) {
+    var nome: String = nome
+    var senha: String = senha
+    var email: String = email
+    var disciplina: String = disciplina
+    var turma: String = turma
+    var tel: String = tel
 }
 
 /**
@@ -47,7 +53,8 @@ class FirstFragment : Fragment() {
             Toast.makeText(activity, "Email ou senha inválidos!", Toast.LENGTH_SHORT).show()
         }
         view.findViewById<Button>(R.id.registrarBtn).setOnClickListener{
-            findNavController().navigate(R.id.action_FirstFragment_to_registerActivity)
+            val intent = Intent(activity, RegisterUser::class.java).apply {}
+            startActivity(intent)
         }
     }
 }
