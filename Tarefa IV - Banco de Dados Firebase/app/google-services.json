@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "997119537135",
+    "firebase_url": "https://dispositivosmoveis-a07b7.firebaseio.com",
+    "project_id": "dispositivosmoveis-a07b7",
+    "storage_bucket": "dispositivosmoveis-a07b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997119537135:android:5f1159a7ae5c25a19ad01a",
+        "android_client_info": {
+          "package_name": "br.unifor.dispositivos.moveis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997119537135-hva7o7b5fhak4kvu1t7kpb7oq2u48mdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.unifor.dispositivos.moveis",
+            "certificate_hash": "fd0e9865d291125db52843e9cef8204a98a2e78d"
+          }
+        },
+        {
+          "client_id": "997119537135-m3p650cta4r8uao796dm0g0m72jfai8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCI_jrfmF-3KUpQnJEJbZIMhdqMvlleME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997119537135-m3p650cta4r8uao796dm0g0m72jfai8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

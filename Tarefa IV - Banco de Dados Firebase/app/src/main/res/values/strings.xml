@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="pesquisa_button_txt">Pesquisar</string>
+    <string name="txt_id_hint" />
+    <string name="hint">Id</string>
+    <string name="nome_label">"Nome: "</string>
+</resources>
