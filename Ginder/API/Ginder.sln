@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ginder.API", "src\Ginder.API\Ginder.API.csproj", "{82684EF0-2941-4525-9E5B-DF08160D337E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C7DFBE51-3D3B-426F-94D5-8F5FEEED41BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ginder.Domain", "src\Ginder.Domain\Ginder.Domain.csproj", "{63C08CA9-1AB9-4AC7-9795-F8CFD7C79720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ginder.Infra", "src\Ginder.Infra\Ginder.Infra.csproj", "{ABC13C10-900D-4E86-8AE6-9A5C36CDA526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82684EF0-2941-4525-9E5B-DF08160D337E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82684EF0-2941-4525-9E5B-DF08160D337E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82684EF0-2941-4525-9E5B-DF08160D337E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82684EF0-2941-4525-9E5B-DF08160D337E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DFBE51-3D3B-426F-94D5-8F5FEEED41BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DFBE51-3D3B-426F-94D5-8F5FEEED41BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DFBE51-3D3B-426F-94D5-8F5FEEED41BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DFBE51-3D3B-426F-94D5-8F5FEEED41BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C08CA9-1AB9-4AC7-9795-F8CFD7C79720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C08CA9-1AB9-4AC7-9795-F8CFD7C79720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C08CA9-1AB9-4AC7-9795-F8CFD7C79720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C08CA9-1AB9-4AC7-9795-F8CFD7C79720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC13C10-900D-4E86-8AE6-9A5C36CDA526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC13C10-900D-4E86-8AE6-9A5C36CDA526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC13C10-900D-4E86-8AE6-9A5C36CDA526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC13C10-900D-4E86-8AE6-9A5C36CDA526}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37E68921-A2A7-4FB8-98DC-F9600E513C99}
+	EndGlobalSection
+EndGlobal

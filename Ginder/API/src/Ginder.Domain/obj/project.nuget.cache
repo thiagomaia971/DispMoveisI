@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J3DD2ms3oxoRC+DvUbwE6X3+KCvhJj0uWnolEpN9YdeYXo9aKAGFFHUltyEhRrZoGu2PA2T/5mvi5GOYmGVlTA==",
+  "success": true,
+  "projectFilePath": "D:\\Wokspace\\Universidade\\DispMoveisI\\Ginder\\API\\src\\Ginder.Domain\\Ginder.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiag\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

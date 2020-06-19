@@ -1,0 +1,12 @@
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\bin\Debug\netcoreapp3.1\Ginder.Infra.deps.json
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\bin\Debug\netcoreapp3.1\Ginder.Infra.dll
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\bin\Debug\netcoreapp3.1\Ginder.Infra.pdb
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\bin\Debug\netcoreapp3.1\Ginder.Domain.dll
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\bin\Debug\netcoreapp3.1\Ginder.Domain.pdb
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\obj\Debug\netcoreapp3.1\Ginder.Infra.csprojAssemblyReference.cache
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\obj\Debug\netcoreapp3.1\Ginder.Infra.csproj.CoreCompileInputs.cache
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\obj\Debug\netcoreapp3.1\Ginder.Infra.AssemblyInfoInputs.cache
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\obj\Debug\netcoreapp3.1\Ginder.Infra.AssemblyInfo.cs
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\obj\Debug\netcoreapp3.1\Ginder.Infra.csproj.CopyComplete
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\obj\Debug\netcoreapp3.1\Ginder.Infra.dll
+D:\Wokspace\Universidade\DispMoveisI\Ginder\API\src\Ginder.Infra\obj\Debug\netcoreapp3.1\Ginder.Infra.pdb

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\thiag\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\thiag\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\thiag\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\thiag\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Ginder.1123638070.00" t="ExcludeRecursive" />
+    <e p="D:\Wokspace\Universidade\DispMoveisI\Ginder\API" t="IncludeRecursive">
+      <e p="docker-compose.dcproj" t="IncludeRecursive" />
+      <e p="Ginder.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src\Ginder.API" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BaseController.cs" t="Include" />
+          <e p="GamesController.cs" t="Include" />
+          <e p="PlayersController.cs" t="Include" />
+          <e p="PlayersGameController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="Dockerfile" t="Include" />
+        <e p="Ginder.API.csproj" t="IncludeRecursive" />
+        <e p="NetCoreSerializationBinder.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Ginder.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="src\Ginder.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CommandHandlers" t="Include">
+          <e p="CommandHandler.cs" t="Include" />
+          <e p="GameCommandHandlers" t="Include">
+            <e p="GameCommandHandler.cs" t="Include" />
+          </e>
+          <e p="LoginCommandHandlers" t="Include">
+            <e p="LoginCommandHandler.cs" t="Include" />
+          </e>
+          <e p="PlayerCommandHandlers" t="Include">
+            <e p="PlayerCommandHandler.cs" t="Include" />
+            <e p="PlayersCommandHandler.cs" t="Include" />
+          </e>
+          <e p="PlayersGameCommandHandlers" t="Include">
+            <e p="PlayersGameCommandHandler.cs" t="Include" />
+          </e>
+        </e>
+        <e p="CommandResult.cs" t="Include" />
+        <e p="Commands" t="Include">
+          <e p="GameCommands" t="Include">
+            <e p="GamesCommand.cs" t="Include" />
+          </e>
+          <e p="ICommand.cs" t="Include" />
+          <e p="LoginCommands" t="Include">
+            <e p="LoginCommand.cs" t="Include" />
+          </e>
+          <e p="PlayerCommands" t="Include">
+            <e p="PlayerCommand.cs" t="Include" />
+            <e p="PlayersCommand.cs" t="Include" />
+          </e>
+          <e p="PlayersGameCommands" t="Include">
+            <e p="PlayersGameCommand.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Entities" t="Include">
+          <e p="Entity.cs" t="Include" />
+          <e p="Game.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="PlayerGame.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="Ginder.Domain.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Ginder.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IGameRepository.cs" t="Include" />
+          <e p="IPlayerGameRepository.cs" t="Include" />
+          <e p="IPlayerRepository.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
+          <e p="IUserRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="src\Ginder.Infra" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ginder.Infra.csproj" t="IncludeRecursive" />
+        <e p="GinderDbContext.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20200619044023_InitialMigration.cs" t="Include" />
+          <e p="20200619044023_InitialMigration.Designer.cs" t="Include" />
+          <e p="GinderDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Ginder.Infra.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="GameRepository.cs" t="Include" />
+          <e p="PlayerGameRepository.cs" t="Include" />
+          <e p="PlayerRepository.cs" t="Include" />
+          <e p="Repository.cs" t="Include" />
+          <e p="UserRepository.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
